@@ -1,0 +1,49 @@
+ body{
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+
+ }   
+
+ .container{
+    background-color: #F4D03F;
+background-image: linear-gradient(132deg, #d8bb45 0%, #106f5c 100%);
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+ }
+
+.currency-container{
+    padding: 20px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.currency-container select {
+    padding: 10px;
+
+}
+.currency-container input{
+    border: 0;
+    background: transparent;
+    font-size: 25px;
+    text-align: right;
+    color: aliceblue;
+    
+}
+
+.exchange-rate{
+    font-size: 16px;
+    font-weight: 600;
+}
+select:focus,
+input:focus{
+     outline: 0;
+} 
